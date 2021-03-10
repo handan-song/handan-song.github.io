@@ -1,6 +1,40 @@
 body{
     background-color: pink;
+    margin: 0;
+    padding: 0;
 }
 h3{
     color: red;
+}
+ul{
+    list-style: none;
+    margin: 100px auto;
+    width: 100px;
+    height: 200px;
+    border: 1px solid red;
+
+}
+ul>li{
+
+    width: 100px;
+    height: 200px;
+    border: 1px solid blue;
+}
+.li1{
+    background-color: rgba(17, 175, 83, 0.541);
+}
+.li2{
+    background-color: rgb(206, 160, 10);
+}
+.li3{
+    background-color: rgb(33, 206, 10);
+}
+.li4{
+    background-color: rgb(170, 206, 10);
+}
+.li5{
+    background-color: rgb(206, 10, 141);
+}
+.li6{
+    background-color: rgb(177, 109, 109);
 }
