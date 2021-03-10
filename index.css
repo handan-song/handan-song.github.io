@@ -7,6 +7,7 @@ h3{
     color: red;
 }
 ul{
+    position: relative;
     list-style: none;
     margin: 100px auto;
     width: 100px;
@@ -14,8 +15,29 @@ ul{
     border: 1px solid red;
 
 }
+ul:hover{
+    transition: 1s linear ;
+}
+ul:hover .li1{
+    transform: rotateZ(30deg);
+}
+ul:hover .li2{
+    transform: rotateZ(60deg);
+}
+ul:hover .li3{
+    transform: rotateZ(180deg);
+}
+ul:hover .li4{
+    transform: rotateZ(240deg);
+}
+ul:hover .li5{
+    transform: rotateZ(300deg);
+}
+ul:hover .li6{
+    transform: rotateZ(360deg);
+}
 ul>li{
-
+    position: absolute;
     width: 100px;
     height: 200px;
     border: 1px solid blue;
