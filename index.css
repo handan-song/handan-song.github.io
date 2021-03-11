@@ -12,11 +12,26 @@ ul{
     margin: 100px auto;
     width: 100px;
     height: 200px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
-ul:hover{
-    transition: 1s linear ;
+.li1{
+    transition: transform linear 2s;
+}
+.li2{
+    transition: transform linear 2s;
+}
+.li3{
+    transition: transform linear 2s;
+}
+.li4{
+    transition: transform linear 2s;
+}
+.li5{
+    transition: transform linear 2s;
+}
+.li6{
+    transition: transform linear 2s;
 }
 ul:hover .li1{
     transform: rotateZ(30deg);
