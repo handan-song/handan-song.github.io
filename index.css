@@ -3,6 +3,11 @@ body{
     margin: 0;
     padding: 0;
 }
+.title{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
 h3{
     color: red;
 }
